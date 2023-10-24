@@ -1,0 +1,204 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+button {
+    text-decoration: none;
+    border: 0;
+}
+
+.firstPage {
+    background-color: #DFDEDE;
+    max-width: 100%;
+    max-height: 100%
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    width: 35%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.firstPage_main {
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+}
+
+.firstPage_mainText {
+    margin-top: 10px;
+
+}
+
+h1 {
+    color: #000;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 10%;
+}
+
+.firstPage_mainText p {
+    color: #9F9595;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 10%;
+}
+
+.btnMain {
+    margin: 10%;
+}
+
+.btn {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.btn2 {
+    background-color: #494949;
+    ;
+}
+
+.btn3 {
+    background-color: #D6FFCC;
+}
+
+.btn4 {
+    background-color: #FF5353;
+}
+
+.button {
+    box-shadow: -10px 4px 20px 0px #00000040;
+    border-radius: 30px;
+    padding: 20px;
+    width: 40%;
+    margin-left: 10%;
+}
+
+.firstPage_mainImg {
+    width: 630.43px;
+    height: 520px;
+}
+
+.firstPage_mainImg1 {
+
+    width: 570px;
+    height: 546px;
+}
+
+.secondPage {
+    background-color: #ffffff;
+    max-width: 100%;
+    max-height: 100%;
+    padding: 30px;
+    display: flex;
+}
+
+.girl {
+    background: no-repeat;
+    background-image: url(./image/audio_quality_eq__bw20hke6z1ea_xlarge\ 1.png);
+    width: 630px;
+    height: 768px;
+}
+
+.girl p {
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 96px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 40%;
+    color: #C7B9B9;
+    width: 718px;
+}
+
+.secondPage_text {
+    margin-top: 425px;
+    width: 30%;
+    margin-left: 285px;
+}
+
+.arrow {
+    border-radius: 50%;
+    border: 1px solid black;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -100px;
+    margin-top: 50px;
+}
+
+.arrow img {
+    width: 50px;
+    height: 30px;
+}
+
+.thirdPage {
+    background: #DFDEDE;
+    max-width: 100%;
+    max-height: 100%;
+    display: flex;
+    padding: 10px;
+}
+
+.thirdPage img {
+    width: 50%;
+    height: 50%;
+
+}
+
+h2 {
+    margin-top: 30%;
+    color: #000;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.thirdPage_mainText p {
+    margin-top: 10%;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    width: 70%;
+    text-align: left;
+    color: #9B9B9B;
+}
+.thirdPage_mainText button{
+    box-shadow: -10px 4px 20px 0px #00000040;
+    border-radius: 30px;
+    margin-top: 10%;
+    padding: 10px;
+    width: 20%;
+    background: #CBB3B30F;
+
+}
